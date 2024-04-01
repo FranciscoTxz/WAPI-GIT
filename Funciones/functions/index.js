@@ -337,6 +337,7 @@ exports.mandarmail = onRequest(async (req, res) => {
     }
 
     const senderEmail = "samaelxzx@gmail.com";
+    const senderPassword = "arvg wqkl lrnq dsar";
 
     const usuario = await getFirestore().collection('boletos').doc(id_boleto).get()
       .then(doc => { return doc.data().usuario; });
