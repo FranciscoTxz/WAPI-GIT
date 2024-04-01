@@ -1,0 +1,34 @@
+.main-page {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-container {
+    min-height: 34px;
+    min-width: 115px;
+    max-height: 300px;
+    max-width: 500px;
+}
+
+.top-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container {
+    padding: 10px;
+    min-width: 235px;
+    min-height: 345px;
+    max-width: 470px;
+    max-height: 690px;
+    cursor: pointer;
+}
+
+.image-container img {
+    width: 100%; /* Ancho al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+}

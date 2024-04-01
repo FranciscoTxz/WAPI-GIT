@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c745c12.css",
+    "main.js": "/static/js/main.5c03c64b.js",
+    "static/media/BoletoApple.png": "/static/media/BoletoApple.eda9a527e2c5fda8e47e.png",
+    "static/media/BoletoAppleP.png": "/static/media/BoletoAppleP.4cb43c368519cdd2e510.png",
+    "static/media/recreacion.png": "/static/media/recreacion.accd161dd6b1a372f79e.png",
+    "static/media/top.jpeg": "/static/media/top.5a529f6fd372a1b117a4.jpeg",
+    "static/media/tres-puntos.png": "/static/media/tres-puntos.9501522aed4470b998d6.png",
+    "index.html": "/index.html",
+    "main.9c745c12.css.map": "/static/css/main.9c745c12.css.map",
+    "main.5c03c64b.js.map": "/static/js/main.5c03c64b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c745c12.css",
+    "static/js/main.5c03c64b.js"
+  ]
+}
