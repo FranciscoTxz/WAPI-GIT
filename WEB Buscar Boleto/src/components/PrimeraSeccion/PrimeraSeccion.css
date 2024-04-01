@@ -1,0 +1,47 @@
+.container {
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.titlex {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+.subTitle {
+    color: #765c06;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.infoFin {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.infoFinx {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.error{
+    padding: 20px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}

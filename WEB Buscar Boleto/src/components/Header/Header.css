@@ -1,0 +1,26 @@
+.header{
+    flex: 2;
+    background-color: #ffc400;
+    padding: 24px;
+    margin: auto;
+    text-align: center; /* Add this line to center the text */
+}
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
+.xlogo{
+    text-align: left;
+}
+.textw{
+    width: 100px;
+    background-color: transparent;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    outline: 7px ridge #000000;
+    display: inline;
+    text-shadow: 0px 0px 0px #000000;
+}
