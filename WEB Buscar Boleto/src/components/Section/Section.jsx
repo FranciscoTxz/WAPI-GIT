@@ -8,6 +8,7 @@ import { doc, getDoc } from "firebase/firestore";
 export const Section = () => {
 
     const [inputValue, setInputValue] = useState('')
+    const [valor, setValor] = useState('')
     const [dataBoletos, setDataBoletos] = useState('');
     const [dataViajes, setDataViajes] = useState('');
     const [dataUsuarios, setDataUsuarios] = useState('');
@@ -18,6 +19,7 @@ export const Section = () => {
     }
 
     const handleClick = async () => {
+        setValor(inputValue);
         let valorGuardado = inputValue;
         console.log('Valor Guardado:', valorGuardado)
 
@@ -55,7 +57,7 @@ export const Section = () => {
             <h1 className="titulo">Ingresa el valor del boleto o escanealo</h1>
             <input className="input" type="text" value={inputValue} onChange={handleInputChange} placeholder="ID del Boleto" />
             <button className="boton" onClick={handleClick}>Consultar Boleto</button>
-            <PrimeraSeccion dataB={dataBoletos} dataV={dataViajes} dataU={dataUsuarios} dataP={dataPagos}/>
+            <PrimeraSeccion id = {valor} dataB={dataBoletos} dataV={dataViajes} dataU={dataUsuarios} dataP={dataPagos}/>
         </section>
     )
 }

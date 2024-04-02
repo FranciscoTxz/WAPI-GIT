@@ -1,13 +1,25 @@
 import './PrimeraSeccion.css';
-export const PrimeraSeccion = ({ dataB, dataV, dataU, dataP }) => {
+import { db } from "../firebase/firebaseconfig";
+import {doc, updateDoc } from "firebase/firestore";
+export const PrimeraSeccion = ({ id, dataB, dataV, dataU, dataP }) => {
+  
+  const handleClick = async () => {
+    console.log(dataB.estado)
+    console.log(id)
 
-/*   console.log('Boleto:', dataB);
-
-  console.log('Viaje', dataV);
-
-  console.log('Usuario:', dataU);
-
-  console.log('Pago:', dataP); */
+    try {
+      const documentoRef = doc(db, "boletos", id);
+      await updateDoc(documentoRef, {
+        estado: 'Abordado'
+      });
+      console.log("Estado actualizado correctamente.");
+    } catch (error) {
+      console.error("Error al actualizar el estado:", error);
+    }
+    //Mandar Whatsapp de "Disfruta tu viaje" ... Proximamente
+    alert('Boleto marcado como Abordado');
+    window.location.reload();
+  }
 
   if (dataB === '') {
     return (
@@ -90,8 +102,11 @@ export const PrimeraSeccion = ({ dataB, dataV, dataU, dataP }) => {
           </div>
           <div className="infoItem">
             <span className='subTitle'>Precio:</span>
-            <span className='infoFin'>{dataP.precio}</span>
+            <span className='infoFin'>{dataV.precio}</span>
           </div>
+        </div>
+        <div className="info">
+        <button className='bx' onClick={handleClick}>Abordado</button>
         </div>
       </div>
     )

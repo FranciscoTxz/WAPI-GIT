@@ -45,3 +45,20 @@
     font-size: 20px;
     text-align: center;
 }
+
+.bx {
+    color: black;
+    font-weight: bold;
+    background-color: rgba(132, 236, 47, 0.958);
+    border: none;
+    padding: 10px 20px; /* Increase padding to make the button bigger */
+    border-radius: 5px;
+    font-size: 14px; /* Increase font size to make the button bigger */
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.bx:hover {
+    color: rgba(132, 236, 47, 0.958);
+    background-color: black;
+}
