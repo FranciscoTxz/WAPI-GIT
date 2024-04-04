@@ -1,0 +1,28 @@
+{
+    "formatVersion": 1,
+    "passTypeIdentifier": "pass.com.gfa.talendland",
+    "teamIdentifier": "J83NHPZ786",
+    "barcode": {
+        "message": "123321",
+        "format" : "PKBarcodeFormatPDF417",
+        "messageEncoding" : "iso-8859-1"
+    },
+    "organizationName": "WAPI",
+    "description": "Descripcion...",
+    "logoText": "WAPI",
+    "foregroundColor": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(139,27,27)",
+    "boardingPass": {
+        "headerFields": [
+        ],
+        "auxiliaryFields": [
+        ],
+        "primaryFields": [
+        ],
+        "secondaryFields": [
+        ],
+        "backFields": [
+        ],
+        "transitType": "PKTransitTypeBus"
+    }
+}
