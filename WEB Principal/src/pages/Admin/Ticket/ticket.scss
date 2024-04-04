@@ -1,0 +1,24 @@
+.ticket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 100vh;
+
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+      cursor: pointer;
+    }
+  }
+
+  .data1 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

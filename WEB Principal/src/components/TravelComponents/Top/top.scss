@@ -1,0 +1,134 @@
+.top {
+  height: 70px;
+  background-color: #eae3ba;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.43);
+
+  .goBack {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .goBackIcon {
+      width: 30px;
+      height: 30px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 30%;
+    }
+  }
+
+  .dataContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .travelContainer {
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+      width: 350px;
+      padding: 10px;
+      margin: 0px 10px;
+      justify-content: space-around;
+      border-radius: 50px;
+      box-shadow: -2px 1px 13px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: -2px 1px 13px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: -2px 1px 13px 0px rgba(0, 0, 0, 0.75);
+
+      span {
+        font-size: 15px;
+        font-weight: bold;
+        align-items: center;
+        display: flex;
+      }
+
+      .icon {
+        font-size: 25px;
+      }
+
+      .icon2 {
+        font-size: 15px;
+        margin-right: 5px;
+      }
+    }
+
+    .dateContainer {
+      display: none;
+    }
+
+    @media (min-width: 650px) {
+      .dateContainer {
+        display: block;
+        background-color: white;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: -2px 1px 13px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -2px 1px 13px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -2px 1px 13px 0px rgba(0, 0, 0, 0.75);
+      }
+    }
+  }
+  .searchContainer {
+    display: none;
+  }
+  @media (min-width: 650px) {
+    .dataContainer {
+      width: 80%;
+      justify-content: space-around;
+    }
+    .searchContainer {
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media (min-width: 800px) {
+    .dataContainer {
+      flex: 3;
+      width: 500px;
+    }
+    .searchContainer {
+      flex: 1;
+    }
+    .goBack {
+      flex: 1;
+    }
+  }
+  @media (min-width: 1200px) {
+    .dataContainer {
+      justify-content: center;
+      gap: 50px;
+
+      .travelContainer {
+        padding: 15px;
+        width: 500px;
+
+        .icon {
+          font-size: 30px;
+        }
+
+        span {
+          font-size: 20px;
+        }
+      }
+      .dateContainer {
+        padding: 18px;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .top {
+    height: 100px;
+  }
+}

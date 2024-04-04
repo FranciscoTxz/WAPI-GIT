@@ -1,0 +1,17 @@
+.ticket {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+  .datos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  label {
+  }
+}

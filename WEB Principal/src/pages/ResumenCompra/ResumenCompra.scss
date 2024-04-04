@@ -1,0 +1,67 @@
+.resumen {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .mainContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+
+    .title {
+      margin-bottom: 20px;
+      font-size: 30px;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .datos {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      span {
+        font-size: 15px;
+      }
+      .orgDes {
+        display: flex;
+        gap: 10px;
+      }
+
+      .fechas {
+        display: flex;
+        gap: 10px;
+      }
+
+      .horas {
+        display: flex;
+        gap: 10px;
+      }
+
+      .nombreComprador {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .datosPago {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+    .botones {
+      display: flex;
+      gap: 10px;
+      margin: 30px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.travels {
+  background-color: white;
+  min-height: 100vh;
+  height: 100%;
+  padding-bottom: 30px;
+
+  .travelList {
+    padding: 0px 10px;
+    display: flex;
+
+    .filter {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      gap: 5px;
+      margin-top: 20px;
+
+      .fecha {
+        margin-left: 20px;
+      }
+
+      @media (min-width: 650px) {
+        .fecha {
+          display: none;
+        }
+      }
+    }
+
+    .titleContainer {
+      padding: 0px 10px;
+
+      span {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (min-width: 765px) {
+  .travelList {
+    margin: 0px 50px;
+  }
+}

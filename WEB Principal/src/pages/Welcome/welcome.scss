@@ -1,0 +1,133 @@
+.welcome {
+  background-color: #ffffff;
+  min-height: 100vh;
+
+  .main {
+    color: #ffc600;
+    padding: 20px;
+    font-size: 40px;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    display: none;
+  }
+
+  .welcomeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../src/assets/fondo_verde.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    h2 {
+      display: none;
+    }
+
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 600px;
+      padding: 20px;
+
+      .title {
+        text-align: center;
+        color: #ffffff;
+        font-size: 30px;
+      }
+
+      .botones {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 10px;
+
+        button {
+          border: none;
+          background-color: #ffc600;
+          color: rgb(0, 0, 0);
+          width: 300px;
+          padding: 10px;
+          border-radius: 5px;
+          font-size: 13px;
+          font-weight: bold;
+          cursor: pointer;
+        }
+
+        button:hover {
+          background-color: black;
+          color: #ffc600;
+        }
+      }
+
+      @media (min-width: 650px) {
+        .botones {
+          display: flex;
+          flex-direction: row;
+          margin: 0px 0px 20px 20px;
+          margin-top: 30px;
+
+          button {
+            width: 250px;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 850px) {
+    .welcomeContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background-image: url('../../../src/assets/fondo_verde.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      .logoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        margin-left: 20px;
+        border-radius: 10px;
+        border: 7px inset #fff70a;
+        background-color: rgb(255, 255, 255, 0.5);
+
+        .text {
+          background-color: #ffc600;
+          color: black;
+          padding: 10px;
+          border-radius: 10px;
+        }
+
+        .logo {
+          width: 350px;
+          height: 300px;
+          display: block;
+        }
+
+        h2 {
+          display: block;
+          text-align: center;
+          font-size: 30px;
+          font-weight: bold;
+          color: #ffc600;
+        }
+      }
+    }
+  }
+}
