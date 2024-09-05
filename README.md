@@ -1,13 +1,13 @@
 # WAPI-GIT
-Recursos necesarios para el equipo GrassBrothers en el proyecto WAPI
+Resources Needed for the GrassBrothers Team in the WAPI Project
 
 **Cloud Functions**
-- Archivo: Cloud Functions
-- Pruebalas con los archivos python en la carpeta "WEB Principal / Pruebas Llamadas"
+- File: Cloud Functions
+- Test them with the Python files in the folder "WEB Principal / Pruebas Llamadas"
 
-**Pagina web principal**
-- Ve la pagina principal aqui: https://web-wapi.web.app
-- Checa boletos en el día 5 de abril del 2024, de Aguascalientes a Guadalajara
+**Main Website**
+- View the main page here: https://web-wapi.web.app
+- Check tickets on April 5, 2024, from Aguascalientes to Guadalajara
 
-**Pagina web checar Boleto**
-- Ve la pagina checar boleto aqui: https://prueba-01x.web.app
+**Ticket Check Website**
+- View the ticket check page here: https://prueba-01x.web.app
