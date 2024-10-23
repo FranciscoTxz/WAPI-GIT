@@ -39,3 +39,10 @@ jspm_packages/
 
 # Mac system files
 .DS_Store
+
+#Certificates and keys
+*.key
+*.pem
+key0.json
+.DS_Store
+API/functions/.DS_Store
