@@ -46,3 +46,4 @@ jspm_packages/
 key0.json
 .DS_Store
 API/functions/.DS_Store
+/ENV
